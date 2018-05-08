@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="file-reference" injector-id="java">
+      <display-name>File.File (java.io)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("File").withParameters("java.lang.String").definedInClass("java.io.File"))]]></place>
+    </injection>
+    <injection language="HTML" injector-id="xml">
+      <display-name>html</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("html")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
+    </injection>
+  </component>
+</application>
